@@ -20,10 +20,18 @@ pub enum AppError {
     Io(#[from] std::io::Error),
 
     #[error("Channel error: {0}")]
-    Channel(#[from] tokio::sync::mpsc::error::SendError<crate::perceiver::event::NormalizedEvent>),
+    Channel(
+        #[from] tokio::sync::mpsc::error::SendError<crate::perceiver::event::NormalizedEvent>,
+    ),
 
-    #[error("HTTP error: {0}")]
+    #[error("Hyper HTTP error: {0}")]
     Http(#[from] hyper::Error),
+
+    #[error("Reqwest HTTP client error: {0}")]
+    HttpClient(#[from] reqwest::Error), // ✅ NEW VARIANT
+
+    #[error("Request error: {0}")]
+    RequestError(String), // ✅ OPTIONAL fallback if you want plain string handling
 }
 
 impl IntoResponse for AppError {
@@ -36,6 +44,8 @@ impl IntoResponse for AppError {
             AppError::Io(_) => StatusCode::INTERNAL_SERVER_ERROR,
             AppError::Channel(_) => StatusCode::INTERNAL_SERVER_ERROR,
             AppError::Http(_) => StatusCode::INTERNAL_SERVER_ERROR,
+            AppError::HttpClient(_) => StatusCode::BAD_GATEWAY,
+            AppError::RequestError(_) => StatusCode::BAD_REQUEST,
         };
 
         (status, self.to_string()).into_response()
