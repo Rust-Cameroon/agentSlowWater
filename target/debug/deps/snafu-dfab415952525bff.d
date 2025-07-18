@@ -1,0 +1,12 @@
+/home/sinke/personal/demos/ai/reflexAgents/ci-cd-optimizer/target/debug/deps/libsnafu-dfab415952525bff.rmeta: /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/lib.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/backtrace_shim.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/once_bool.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/error_chain.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/Snafu.md /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.md /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/../README.md
+
+/home/sinke/personal/demos/ai/reflexAgents/ci-cd-optimizer/target/debug/deps/snafu-dfab415952525bff.d: /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/lib.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/backtrace_shim.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/once_bool.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/error_chain.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.rs /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/Snafu.md /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.md /home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/../README.md
+
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/lib.rs:
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/backtrace_shim.rs:
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/once_bool.rs:
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/error_chain.rs:
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.rs:
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/Snafu.md:
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.md:
+/home/sinke/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/../README.md:
